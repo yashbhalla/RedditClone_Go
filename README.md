@@ -5,12 +5,12 @@ This project implements a Reddit-like simulation using Go, demonstrating a scala
 
 ## System Architecture
 The system consists of several key components:
-a) Main Application (main.go)
-b) Community Engine (engine.go)
-c) Client Simulator (client.go)
-d) Message Definitions (messages.go)
-e) HTTP Server (server.go)
-f) Activity Simulator (simulator.go)
+- Main Application (main.go)
+- Community Engine (engine.go)
+- Client Simulator (client.go)
+- Message Definitions (messages.go)
+- HTTP Server (server.go)
+- Activity Simulator (simulator.go)
 
 ## Component Details
 Main Application (main.go)
