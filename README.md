@@ -20,23 +20,28 @@ Main Application (main.go)
 - Creates an actor system and spawns the CommunityEngine actor
 - Runs the simulation with configurable parameters
 - Handles simulation termination and reports total time taken
+
 Community Engine (engine.go)
 - Core component handling business logic
 - Maintains data structures for members, communities, messages, and threads
 - Processes various message types using the Receive method
 - Ensures thread-safety with locks when modifying shared data
+
 Client Simulator (client.go)
 - Simulates client interactions with the server
 - Provides methods for user actions (e.g., registering, creating communities/threads)
 - Sends HTTP requests to the server and logs interactions
+
 Message Definitions (messages.go)
 - Defines data structures and message types used throughout the application
 - Includes structures for Member, Community, Thread, Reply, and PrivateMessage
 - Defines message types for various actions
+
 HTTP Server (server.go)
 - Handles HTTP requests and interacts with the CommunityEngine
 - Sets up routes for different actions
 - Processes incoming requests and sends appropriate responses
+
 Activity Simulator (simulator.go)
 - Simulates user activity in the system
 - Creates members, communities, and threads
